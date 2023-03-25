@@ -1,0 +1,52 @@
+# terms
+
+repository(Repo)
+Branch
+conflict
+local
+remote
+
+
+# commands
+
+- git init: xác nhận thư mục bash là 1 reponsitory 
+(đây cũng là lệnh đầu tiên khi làm việc với git sau khi khai báo emai và user.name)
+
+- git status: ghi lại trạng thái của dự án
+(kiểu nó sẽ hiện thông tin những file đã up lên git hub và trạng thái reponsitory hiện tại)
+
+- git add: lưu file vào bộ nhớ tạm và chuẩn bị up file lên git hub
+ + '.' : lưu tất cả các file trong reponsitory vào bộ nhớ tạm để chuẩn bị up lên github _'git push *'_
+
+ + 'tên file': chỉ lưu đúng file chỉ định vào bộ nhớ tạm
+
+- git reset: ngược lại với git add, lấy ra tất cả các file khỏi bộ nhớ tạm
+
+- git commit: ghi comment trên reponsitory định up và đưa file đã git add lên bộ nhớ để git push
+(full syntas: git commit -m 'bình luận')
+
+- git log: hiện tất cả thời điểm ta 'git commit' và ghi chú tương ứng trên reponsitory
+
+- git checkout {branch name}: chuyển đến thời điểm ta commit or di chuyển sang branch khác
+ (giống save trong game) 
+(save game ori and the blank forest nhé!) 
+(không phải game nào cách save cũng giống nhau đâu)
+(mã commit cũng có thể được sử dụng)
+
+- git branch: xác định branch hiện tại
+(branch mặc định là master)
+(để thoát ra thì dùng ':q' và enter)
+
+- git checkout -b {branch name}: tạo ra 1 branch mới
+
+- git merge {branch name}: tổng hợp lại các file trong branch
+
+- git branch -d {branch name}: xóa branch
+
+
+- git push {link repository} {branch name}: đẩy file từ local lên repository trên github
+
+
+
+
+
